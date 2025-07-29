@@ -1,0 +1,108 @@
+body {
+    background-color: #f9f9fb;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#productTitle {
+    color: #e0e7ff;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+#productCard_section {
+    background-color: #1e1e3f;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    max-width: 90vw;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.12);
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+#productCard_section:hover {
+    animation: liftAndPulse 0.5s ease forwards;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes liftAndPulse {
+    0%   { transform: translateY(0) scale(1); }
+    50%  { transform: translateY(-5px) scale(1.02); }
+    100% { transform: translateY(-5px) scale(1); }
+}
+
+#produktBild {
+    width: 300px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+#productInfo {
+    max-width: 0;
+    max-height: 0;
+    opacity: 0;
+    background-color: #1fb9d1;
+    color: #1a1a1a;
+    border-radius: 10px;
+    padding: 0;
+    margin-left: 0;
+    overflow: hidden;
+    white-space: normal;
+    box-sizing: border-box;
+    transition:
+        max-width 0.5s ease,
+        max-height 0.5s ease,
+        opacity 0.3s ease 0.2s,
+        padding 0.3s ease,
+        margin-left 0.3s ease;
+    flex-shrink: 1;
+}
+
+#productCard_section:hover #productInfo {
+    max-width: 500px;
+    max-height: 400px;
+    opacity: 1;
+    padding: 1rem;
+}
+
+@media (max-width: 600px) {
+    #productCard_section {
+        flex-direction: column;
+        max-width: 95%;
+    }
+
+    #produktBild {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #productInfo {
+        width: 90%;
+        opacity: 1;
+        padding: 1rem;
+        white-space: normal;
+        margin-left: 0;
+        max-width: none;
+        max-height: none;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+    padding: 1rem;
+}
+
+.highlight {
+    background-color: #3e3e6f !important;
+}
