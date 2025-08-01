@@ -1,89 +1,61 @@
-# Willkommen Karte – HTML- und JavaScript-Erstversion
+# Willkommen Karte – Standardisierte HTML/CSS-Version
 
-Dies ist die erste Version einer Willkommen-Karte, bei der die Struktur hauptsächlich mit HTML und CSS erstellt wurde, während alle Inhalte wie Benutzername, Begrüßung und Fortschrittsprozentsatz vollständig über JavaScript-Variablen gesteuert werden.
+Dies ist die bereinigte und standardisierte Version einer Willkommen-Karte. Alle Inhalte sind direkt in HTML integriert – ganz ohne JavaScript. Sie behält das ursprüngliche Design vollständig bei, ist aber einfacher, klarer und wartungsfreundlicher.
 
-**Hinweis:** Eine verbesserte und standardisierte Version dieses Projekts wird parallel zu dieser HTML- und JavaScript-Erstversion hochgeladen.
+## Merkmale
 
-## Funktionen
-
-- Personalisierte Begrüßung mit Benutzername und Emoji  
-- Anzeige des Fortschrittsprozentsatzes  
-- Stilvolle Karte mit Bild- und Textinhalten  
-- Navigationsschaltflächen "Vor" und "Zurück" mit Hover-Effekten  
-- Modernes Design mit Farbverläufen, Schatten und benutzerdefinierten Schriftarten  
+- Personalisierte Begrüßung mit Emoji  
+- Fortschrittsanzeige in Prozent  
+- Stilvolle Karte mit Bild- und Textinhalt  
+- Navigationstasten mit Hover-Effekten  
+- Modernes Layout mit Farbverlauf und Schatten  
 
 ## Technologiestack
 
-- **HTML5** für die Grundstruktur  
-- **CSS3** für Styling und Layout (inklusive Flexbox)  
-- **JavaScript** für dynamische Befüllung der Inhalte über Variablen  
-- **Font Awesome 6** für Icons  
+- **HTML5** – feste Inhalte, keine dynamische Logik  
+- **CSS3** – für Styling, Layout (inkl. Flexbox) und visuelle Effekte  
+- **Font Awesome 6** – für Icons  
 
-## Nutzung
+## Nutzung & Anpassung
 
-1. Die Datei `index.html` in einem modernen Browser öffnen  
-2. Variablen in `index.js` (`userName`, `greeting`, `percentageCompleted`) anpassen, um den angezeigten Inhalt zu ändern  
+1. `index.html` in einem Browser öffnen  
+2. Inhalte direkt im HTML bearbeiten (Name, Titel, Texte etc.)  
+3. Styling über `styles.css` anpassen  
 
-## Anpassung
+## Zukunftsideen
 
-- Alle Inhalte werden in `index.js` über Variablen gesteuert.  
-- CSS in `styles.css` kann angepasst werden, um Farben, Schriftarten oder Layout zu verändern.  
-- Das Bild im `/img`-Ordner kann ersetzt werden, um das Standardbild zu ändern.  
-
-## Funktionsweise
-
-- HTML definiert Platzhalter für Text und Buttons.  
-- JavaScript füllt diese Platzhalter dynamisch mit Variableninhalten.  
-- CSS sorgt für das Layout, Design und Animationen wie Hover-Effekte bei Buttons.  
-
-## Zukünftige Versionen
-
-- Responsive Design für verschiedene Bildschirmgrößen  
-- Funktionsfähige Navigation mit den Buttons  
-- Eine erweiterte Version mit moderneren Webtechnologien und sauberer Struktur  
+- Responsives Design für mobile Geräte  
+- Dynamische Inhalte mit moderner JavaScript-Logik oder Frameworks (z. B. React)
 
 
 
-# Welcome Card – HTML and JavaScript First Version
+---
 
-This is the initial version of a welcome card, where the structure is primarily created with HTML and CSS, while all content such as username, greeting, and progress percentage is fully controlled via JavaScript variables.
+# Welcome Card – Standardized HTML/CSS Version
 
-**Note:** An improved and more standardized version of this project is uploaded alongside this HTML and JavaScript first version.
+This is the cleaned-up, standardized version of a welcome card. All content is directly embedded in the HTML – no JavaScript required. It keeps the original design intact while simplifying structure and maintenance.
 
 ## Features
 
-- Personalized greeting with username and emoji  
+- Personalized greeting with emoji  
 - Display of progress percentage  
-- Stylish card with image and text content  
-- Navigation buttons "Next" and "Previous" with hover effects  
-- Modern design with gradients, shadows, and custom fonts  
+- Stylish card with image and text  
+- Navigation buttons with hover effects  
+- Modern layout with gradients and shadows  
 
 ## Tech Stack
 
-- **HTML5** for the basic structure  
-- **CSS3** for styling and layout (including Flexbox)  
-- **JavaScript** for dynamically populating content via variables  
-- **Font Awesome 6** for icons  
+- **HTML5** – static content, no dynamic logic  
+- **CSS3** – for styling, layout (including Flexbox), and visual effects  
+- **Font Awesome 6** – for icons  
 
-## Usage
+## Usage & Customization
 
-1. Open the `index.html` file in a modern browser  
-2. Customize variables in `index.js` (`userName`, `greeting`, `percentageCompleted`) to change displayed content  
+1. Open `index.html` in a browser  
+2. Edit content directly in the HTML (name, title, text, etc.)  
+3. Adjust styling in `styles.css` as needed  
 
-## Customization
+## Future Ideas
 
-- All content is controlled through variables in `index.js`.  
-- CSS in `styles.css` can be adjusted to change colors, fonts, or layout.  
-- The image in the `/img` folder can be replaced to change the default picture.  
-
-## How it works
-
-- HTML defines placeholders for text and buttons.  
-- JavaScript fills these placeholders dynamically with variable content.  
-- CSS handles layout, styling, and animations such as hover effects on buttons.  
-
-## Future Versions
-
-- Responsive design for various screen sizes  
-- Functional navigation using the buttons  
-- An enhanced version using modern web technologies and cleaner structure  
+- Responsive design for mobile devices  
+- Dynamic content using modern JavaScript or frameworks (e.g. React)
