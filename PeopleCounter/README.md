@@ -29,7 +29,7 @@ Perfekt für Anfänger zum Lernen, Anpassen und Weiterentwickeln!
 1. **Repo klonen**
 
     ```bash
-    git clone (https://github.com/sandroc0sta/Kleine-Projekte-und-Komponente.git)
+    git clone https://github.com/sandroc0sta/Kleine-Projekte-und-Komponente.git
     ```
 
 2. **Ordner öffnen und App starten**
