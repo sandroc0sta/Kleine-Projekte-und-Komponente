@@ -65,10 +65,13 @@ Perfekt für Anfänger zum Lernen, Anpassen und Weiterentwickeln!
 
 ## 📁 Projektstruktur
 
-├── index.html # Hauptdatei
-├── index.css # Styling
-├── index.js # Zähler-Logik
-└── station.jpg # Hintergrund
+```
+├── index.html       # Hauptdatei
+├── index.css        # Styling
+├── index.js         # Zähler-Logik
+└── station.jpg      # Hintergrund
+```
+
 
 ---
 
@@ -138,12 +141,6 @@ Everything is built using **HTML**, **CSS**, and **JavaScript**, making it perfe
 
 ---
 
-## 🖼️ Screenshot
-
-![People Counter](station.jpg)
-
----
-
 ## 🧠 Ideas to Expand
 
 - Add timestamps to saved entries  
@@ -155,10 +152,13 @@ Everything is built using **HTML**, **CSS**, and **JavaScript**, making it perfe
 
 ## 📁 Folder Structure
 
-├── index.html # main file to open
-├── index.css # layout and styling
-├── index.js # app logic
-└── station.jpg # background image
+```
+├── index.html       # main file to open
+├── index.css        # layout and styling
+├── index.js         # app logic
+└── station.jpg      # background image
+```
+
 
 
 
