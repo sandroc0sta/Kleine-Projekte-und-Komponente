@@ -29,7 +29,7 @@ Perfekt für Anfänger zum Lernen, Anpassen und Weiterentwickeln!
 1. **Repo klonen**
 
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+    git clone (https://github.com/sandroc0sta/Kleine-Projekte-und-Komponente.git)
     ```
 
 2. **Ordner öffnen und App starten**
@@ -116,7 +116,7 @@ Everything is built using **HTML**, **CSS**, and **JavaScript**, making it perfe
 1. **Download or clone the repo**
 
     ```bash
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+    git clone https://github.com/sandroc0sta/Kleine-Projekte-und-Komponente.git
     ```
 
 2. **Open the folder and run the app**
