@@ -6,7 +6,6 @@ let playerBlackjack = false;
 
 const getRandom = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-// Generate a random card object
 const getCard = () => {
     const r = getRandom(2, 11);
     if (r === 11) return { face: "A", value: 11 };
@@ -78,7 +77,7 @@ const startGame = () => {
 };
 
 const houseMove = () => {
-    if (playerBusted || playerBlackjack) return; // ⬅️ Don't let house play if player already won
+    if (playerBusted || playerBlackjack) return;
 
     while (houseSum < 17) {
         const card = getCard();
@@ -139,7 +138,14 @@ const updateDisplay = () => {
     if (sum === 21 && hand.length === 2 && !playerBlackjack) {
         playerBlackjack = true;
         disableBtns();
-        displayMessage("Blackjack! You win instantly!", "green", "win-msg"); // ⬅️ Instant win here
+        displayMessage("Blackjack! You win instantly!", "green", "win-msg");
+        return;
+    }
+
+    if (sum === 21 && hand.length > 2) {
+        disableBtns();
+        displayMessage("21 reached! Your turn ends.", "yellow", "stay-msg");
+        houseMove();
         return;
     }
 
