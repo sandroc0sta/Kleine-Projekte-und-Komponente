@@ -1,3 +1,5 @@
+# DE
+---
 # Blackjack Spiel 🎲🂡
 
 Ein einfaches Browser-Blackjack-Spiel, erstellt mit HTML, CSS und JavaScript. Spiele gegen den Computer (Haus) und genieße ein unterhaltsames Kartenspiel.
@@ -54,6 +56,9 @@ Ein einfaches Browser-Blackjack-Spiel, erstellt mit HTML, CSS und JavaScript. Sp
 
 ---
 
+
+# EN
+---
 # Blackjack Game 🎲🂡
 
 A simple browser-based Blackjack game built with HTML, CSS, and JavaScript. Play against the computer (house) and enjoy a fun, interactive card game experience.
